@@ -7,7 +7,7 @@ namespace FigureArea
         private double _radius;
 
         public double Radius {
-            get { return _radius; }
+            get => _radius; 
             set 
             {
                 if (value < 0)

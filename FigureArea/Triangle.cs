@@ -11,7 +11,7 @@ namespace FigureArea
         private double[] sortedSides;
         public double FirstSide
         {
-            get { return _firstSide; }
+            get => _firstSide;
             private set
             {
                 GreaterThanZeroCheck(value);
@@ -21,7 +21,7 @@ namespace FigureArea
 
         public double SecondSide
         {
-            get { return _secondSide; }
+            get => _secondSide;
             private set
             {
                 GreaterThanZeroCheck(value);
@@ -31,7 +31,7 @@ namespace FigureArea
 
         public double ThirdSide
         {
-            get { return _thirdSide; }
+            get => _thirdSide;
             private set
             {
                 GreaterThanZeroCheck(value);
